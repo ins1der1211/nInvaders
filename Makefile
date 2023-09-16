@@ -1,5 +1,5 @@
-CC=gcc
-CFLAGS=-O3 -Wall
+CC=arm-linux-gnueabihf-gcc
+CFLAGS=-O3 -Wall -fcommon
 LIBS=-lncurses
 
 CFILES=globals.c view.c aliens.c ufo.c player.c nInvaders.c
